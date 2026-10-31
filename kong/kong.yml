@@ -9,11 +9,11 @@ services:
         paths: [/]
 
   - name: concerts
-    url: grpc://logic:50051
+    url: grpc://concerts:50051
     routes:
       - name: concerts
         protocols: [grpc]
-        paths: [/festhub.concerts.ConcertService/]
+        paths: [/festhub.concerts.ConcertService/, /festhub.concerts.BookingService/]
         strip_path: false
 
   - name: artists

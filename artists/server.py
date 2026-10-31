@@ -1,7 +1,7 @@
 from google.protobuf import empty_pb2
 
-import artists_pb2
-import artists_pb2_grpc
+import artists_pb2 # type: ignore
+import artists_pb2_grpc # type: ignore
 import service
 from common.server import field, invoke, serve, string_id
 
@@ -28,7 +28,7 @@ class ArtistService(artists_pb2_grpc.ArtistServiceServicer):
 
     def ShowArtists(self, request, context):
         records = invoke(context, service.find_artists, request.id or None)
-        return artists_pb2.ShowArtistsResponse(artists=[to_artist(x) for x in records])
+        return artists_pb2.ShowArtistsResponse(artists=[to_artist(x) for x in records]) # type: ignore
 
     def UpdateArtist(self, request, context):
         invoke(

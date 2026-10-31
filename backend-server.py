@@ -110,8 +110,6 @@ class MediaService(media_pb2_grpc.MediaServiceServicer):
 if __name__ == "__main__":
     serve(
         "logic",
-        (concerts_pb2_grpc.add_ConcertServiceServicer_to_server, ConcertService()),
-        (concerts_pb2_grpc.add_BookingServiceServicer_to_server, BookingService()),
         (categories_pb2_grpc.add_CategoryServiceServicer_to_server, CategoryService()),
         (media_pb2_grpc.add_MediaServiceServicer_to_server, MediaService()),
     )

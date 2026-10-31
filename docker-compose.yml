@@ -63,6 +63,7 @@ services:
       POSTGRES_USER: artists
       POSTGRES_PASSWORD: artists
       POSTGRES_DB: artists
+      PEER_IPS: 172.30.83.40
     ports:
       - "127.0.0.1:5435:5432"
     volumes:
@@ -83,7 +84,7 @@ services:
       BIND_ADDRESS: 172.30.83.50
       GATEWAY_IP: 172.30.83.30
       PEER_IPS: 172.30.83.20
-      CONCERTS_HOST: logic
+      CONCERTS_HOST: concerts
     networks:
       app_net:
         ipv4_address: 172.30.83.50
@@ -98,6 +99,65 @@ services:
           target: /festhub/service.py
         - action: sync+restart
           path: artists/server.py
+          target: /festhub/server.py
+        - action: sync+restart
+          path: common
+          target: /festhub/common
+        - action: rebuild
+          path: concerts/concerts.proto
+        - action: rebuild
+          path: artists/artists.proto
+        - action: rebuild
+          path: categories/categories.proto
+        - action: rebuild
+          path: media/media.proto
+        - action: rebuild
+          path: requirements.txt
+
+  concerts-db:
+    build: concerts/db
+    environment:
+      POSTGRES_USER: concerts
+      POSTGRES_PASSWORD: concerts
+      POSTGRES_DB: concerts
+    ports:
+      - "127.0.0.1:5434:5432"
+    volumes:
+      - concerts-db-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "concerts"]
+      interval: 2s
+      retries: 15
+    networks:
+      - concerts_db_net
+
+  concerts:
+    build:
+      context: .
+      dockerfile: concerts/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://concerts:concerts@concerts-db:5432/concerts
+      BIND_ADDRESS: 172.30.83.40
+      GATEWAY_IP: 172.30.83.30
+      # IPs for artists (.50), categories (.60), and media (.70)
+      PEER_IPS: 172.30.83.50,172.30.83.60,172.30.83.70
+      ARTISTS_HOST: artists
+      CATEGORIES_HOST: categories
+      MEDIA_HOST: media
+    networks:
+      app_net:
+        ipv4_address: 172.30.83.40
+      concerts_db_net:
+    depends_on:
+      concerts-db:
+        condition: service_healthy
+    develop:
+      watch:
+        - action: sync+restart
+          path: concerts/service.py
+          target: /festhub/service.py
+        - action: sync+restart
+          path: concerts/server.py
           target: /festhub/server.py
         - action: sync+restart
           path: common
@@ -185,7 +245,10 @@ networks:
     driver: bridge
   artists_db_net:
     driver: bridge
+  concerts_db_net:
+    driver: bridge
 
 volumes:
   db-data:
   artists-db-data:
+  concerts-db-data:
