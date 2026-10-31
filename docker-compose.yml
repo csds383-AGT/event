@@ -41,9 +41,6 @@ services:
           path: logic
           target: /festhub/logic
         - action: sync+restart
-          path: backend-server.py
-          target: /festhub/backend-server.py
-        - action: sync+restart
           path: common
           target: /festhub/common
         - action: rebuild

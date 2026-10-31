@@ -86,7 +86,7 @@ class GatewayAndPeersOnly(grpc.ServerInterceptor):
             if caller not in allowed:
                 logging.warning("Rejected gRPC call %s from %s", handler_call_details.method, caller)
                 context.abort(grpc.StatusCode.PERMISSION_DENIED, "calls to this service must go through the API gateway")
-            return handler.unary_unary(request, context)
+            return handler.unary_unary(request, context) # type: ignore
 
         return grpc.unary_unary_rpc_method_handler(
             guarded,

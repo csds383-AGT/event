@@ -2,14 +2,14 @@ import os
 from flask import Flask, abort, jsonify, render_template, request
 import json
 import grpc
-import concerts_pb2
-import concerts_pb2_grpc
-import artists_pb2
-import artists_pb2_grpc
-import categories_pb2
-import categories_pb2_grpc
-import media_pb2
-import media_pb2_grpc
+import concerts_pb2 # type: ignore
+import concerts_pb2_grpc # type: ignore
+import artists_pb2 # type: ignore
+import artists_pb2_grpc # type: ignore
+import categories_pb2 # type: ignore
+import categories_pb2_grpc # type: ignore
+import media_pb2 # type: ignore
+import media_pb2_grpc # type: ignore
 from decimal import Decimal, InvalidOperation
 import logging
 

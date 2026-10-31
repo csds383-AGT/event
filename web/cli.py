@@ -3,8 +3,9 @@ from contextlib import contextmanager
 
 import typer
 
-import services
-from services import FestHubError
+from common.peers import FestHubError
+
+
 
 try:
     import readline  # arrow keys and command history in the shell (Windows has these built in)
@@ -257,7 +258,7 @@ def delete_media(media_id: str):
 def show_commands():
     typer.echo("Commands:")
     for group in app.registered_groups:
-        for command in group.typer_instance.registered_commands:
+        for command in group.typer_instance.registered_commands: # type: ignore
             name = f"{group.name} {command.name}"
             typer.echo(f"  {name.ljust(18)}{command.help}")
 
