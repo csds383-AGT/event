@@ -18,7 +18,7 @@ def parse_id(custom_id):
         raise FestHubError("custom ID must be a valid UUID")
 
 
-def check_lengths(name, description=""):
+def check_lengths(name:str, description=""):
     if len(name) > 2000:
         raise FestHubError("name must be 2000 characters or fewer")
     if len(description) > 10000:

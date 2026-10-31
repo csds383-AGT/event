@@ -1,6 +1,7 @@
 typer
 email-validator
 psycopg[binary,pool]
+psycopg-pool
 flask
 grpcio
 grpcio-tools
