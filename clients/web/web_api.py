@@ -13,7 +13,7 @@ import media_pb2_grpc # type: ignore
 from decimal import Decimal, InvalidOperation
 import logging
 
-# Run with command flask --app website.py run --reload
+# Run with command flask --app clients/web/web_api.py run --reload
 
 app = Flask(__name__)
 GRPC_TARGET = f"{os.getenv('BUSINESS_HOST', 'localhost')}:{os.getenv('BUSINESS_PORT', '50051')}"

@@ -1,9 +1,38 @@
+from __future__ import annotations
+
 import shlex
 from contextlib import contextmanager
+from typing import Optional
 
 import typer
 
-from common.peers import FestHubError
+from cli_api import (create_artist, create_category, create_concert, create_media,
+                     delete_artist, delete_category, delete_concert, delete_media,
+                     FestHubError,
+                     find_artists, find_categories, find_concerts, find_media,
+                     update_artist, update_category, update_concert, update_media)
+
+
+class Services:
+    create_artist = staticmethod(create_artist)
+    create_category = staticmethod(create_category)
+    create_concert = staticmethod(create_concert)
+    create_media = staticmethod(create_media)
+    delete_artist = staticmethod(delete_artist)
+    delete_category = staticmethod(delete_category)
+    delete_concert = staticmethod(delete_concert)
+    delete_media = staticmethod(delete_media)
+    find_artists = staticmethod(find_artists)
+    find_categories = staticmethod(find_categories)
+    find_concerts = staticmethod(find_concerts)
+    find_media = staticmethod(find_media)
+    update_artist = staticmethod(update_artist)
+    update_category = staticmethod(update_category)
+    update_concert = staticmethod(update_concert)
+    update_media = staticmethod(update_media)
+
+
+services = Services()
 
 
 
@@ -49,7 +78,7 @@ def create_concert_events(
         description: str,
         available_tickets: int,
         ticket_price: str = typer.Argument(help="Ticket price, e.g. 25.50"),
-        custom_id: str | None = typer.Option(None, "--id", help="Custom ID"),
+        custom_id: Optional[str] = typer.Option(None, "--id", help="Custom ID"),
         artist: list[str] = typer.Option([], help="Artist ID to book for this event (repeatable)"),
         category: list[str] = typer.Option([], help="Category ID to add this event to (repeatable)"),
         media: list[str] = typer.Option([], help="Media ID to move to this event (repeatable)"),
@@ -61,7 +90,7 @@ def create_concert_events(
 
 
 @show_app.command("concert", help="Show all concert events, or one by ID")
-def show_concert_events(event_id: str | None = typer.Argument(None, help="Show only this event")):
+def show_concert_events(event_id: Optional[str] = typer.Argument(None, help="Show only this event")):
     with report_errors():
         events = services.find_concerts(event_id)
     if not events:
@@ -70,7 +99,7 @@ def show_concert_events(event_id: str | None = typer.Argument(None, help="Show o
         typer.echo(f"- {event.name} ({event.id})")
         typer.echo(f"    description: {event.description}")
         typer.echo(f"    available tickets: {event.available_tickets}")
-        typer.echo(f"    ticket price: ${event.ticket_price / 100:,.2f}")
+        typer.echo(f"    ticket price: ${event.ticket_price_cents / 100:,.2f}")
         typer.echo(f"    artist ids: {format_ids(event.artist_ids)}")
         typer.echo(f"    category ids: {format_ids(event.category_ids)}")
         typer.echo(f"    media ids: {format_ids(event.media_ids)}")
@@ -79,10 +108,10 @@ def show_concert_events(event_id: str | None = typer.Argument(None, help="Show o
 @update_app.command("concert", help="Update a concert event")
 def update_concert_events(
         event_id: str,
-        name: str | None = typer.Option(None, help="New event name"),
-        description: str | None = typer.Option(None, help="New event description"),
-        available_tickets: int | None = typer.Option(None, help="New number of available tickets"),
-        ticket_price: str | None = typer.Option(None, help="New ticket price, e.g. 25.50"),
+        name: Optional[str] = typer.Option(None, help="New event name"),
+        description: Optional[str] = typer.Option(None, help="New event description"),
+        available_tickets: Optional[int] = typer.Option(None, help="New number of available tickets"),
+        ticket_price: Optional[str] = typer.Option(None, help="New ticket price, e.g. 25.50"),
         add_artist: list[str] = typer.Option([], help="Artist ID to book for this event (repeatable)"),
         remove_artist: list[str] = typer.Option([], help="Artist ID to unbook from this event (repeatable)"),
         add_category: list[str] = typer.Option([], help="Category ID to add this event to (repeatable)"),
@@ -117,7 +146,7 @@ def delete_concert_events(event_id: str):
 def create_artist(
         name: str,
         booking_contact: str,
-        custom_id: str | None = typer.Option(None, "--id", help="Custom ID"),
+        custom_id: Optional[str] = typer.Option(None, "--id", help="Custom ID"),
         event: list[str] = typer.Option([], help="Event ID to book this artist for (repeatable)"),
 ):
     with report_errors("create artist"):
@@ -126,7 +155,7 @@ def create_artist(
 
 
 @show_app.command("artist", help="Show all artists, or one by ID")
-def show_artists(artist_id: str | None = typer.Argument(None, help="Show only this artist")):
+def show_artists(artist_id: Optional[str] = typer.Argument(None, help="Show only this artist")):
     with report_errors():
         artists = services.find_artists(artist_id)
     if not artists:
@@ -140,8 +169,8 @@ def show_artists(artist_id: str | None = typer.Argument(None, help="Show only th
 @update_app.command("artist", help="Update an artist")
 def update_artist(
         artist_id: str,
-        name: str | None = typer.Option(None, help="New artist name"),
-        booking_contact: str | None = typer.Option(None, help="New booking contact email"),
+        name: Optional[str] = typer.Option(None, help="New artist name"),
+        booking_contact: Optional[str] = typer.Option(None, help="New booking contact email"),
         add_event: list[str] = typer.Option([], help="Event ID to book this artist for (repeatable)"),
         remove_event: list[str] = typer.Option([], help="Event ID to unbook this artist from (repeatable)"),
 ):
@@ -166,7 +195,7 @@ def delete_artist(artist_id: str):
 def create_category(
         name: str,
         description: str,
-        custom_id: str | None = typer.Option(None, "--id", help="Custom ID"),
+        custom_id: Optional[str] = typer.Option(None, "--id", help="Custom ID"),
         event: list[str] = typer.Option([], help="Event ID to add to this category (repeatable)"),
 ):
     with report_errors("create category"):
@@ -175,7 +204,7 @@ def create_category(
 
 
 @show_app.command("category", help="Show all categories, or one by ID")
-def show_categories(category_id: str | None = typer.Argument(None, help="Show only this category")):
+def show_categories(category_id: Optional[str] = typer.Argument(None, help="Show only this category")):
     with report_errors():
         categories = services.find_categories(category_id)
     if not categories:
@@ -189,8 +218,8 @@ def show_categories(category_id: str | None = typer.Argument(None, help="Show on
 @update_app.command("category", help="Update a category")
 def update_category(
         category_id: str,
-        name: str | None = typer.Option(None, help="New category name"),
-        description: str | None = typer.Option(None, help="New category description"),
+        name: Optional[str] = typer.Option(None, help="New category name"),
+        description: Optional[str] = typer.Option(None, help="New category description"),
         add_event: list[str] = typer.Option([], help="Event ID to add to this category (repeatable)"),
         remove_event: list[str] = typer.Option([], help="Event ID to remove from this category (repeatable)"),
 ):
@@ -215,7 +244,7 @@ def delete_category(category_id: str):
 def create_media(
         event_id: str,
         image_url: str,
-        custom_id: str | None = typer.Option(None, "--id", help="Custom ID"),
+        custom_id: Optional[str] = typer.Option(None, "--id", help="Custom ID"),
 ):
     with report_errors("create media"):
         media_id = services.create_media(event_id, image_url, custom_id)
@@ -223,7 +252,7 @@ def create_media(
 
 
 @show_app.command("media", help="Show all media, or one by ID")
-def show_media(media_id: str | None = typer.Argument(None, help="Show only this media asset")):
+def show_media(media_id: Optional[str] = typer.Argument(None, help="Show only this media asset")):
     with report_errors():
         media_assets = services.find_media(media_id)
     if not media_assets:
@@ -236,8 +265,8 @@ def show_media(media_id: str | None = typer.Argument(None, help="Show only this 
 @update_app.command("media", help="Update a media asset")
 def update_media(
         media_id: str,
-        event_id: str | None = typer.Option(None, help="New parent event ID"),
-        image_url: str | None = typer.Option(None, help="New image URL"),
+        event_id: Optional[str] = typer.Option(None, help="New parent event ID"),
+        image_url: Optional[str] = typer.Option(None, help="New image URL"),
 ):
     with report_errors("update media"):
         services.update_media(media_id, event_id, image_url)

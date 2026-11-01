@@ -4,7 +4,7 @@ WORKDIR /festhub
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY concerts/concerts.proto artists/artists.proto categories/categories.proto media/media.proto protos/
+COPY services/concerts/concerts.proto services/artists/artists.proto services/categories/categories.proto services/media/media.proto protos/
 RUN python -m grpc_tools.protoc \
     -I protos \
     --python_out=. \
@@ -12,6 +12,6 @@ RUN python -m grpc_tools.protoc \
     protos/*.proto
 
 COPY common common
-COPY concerts/service.py concerts/server.py ./
+COPY services/media/service.py services/media/server.py ./
 
 CMD ["python", "server.py"]
