@@ -12,7 +12,6 @@
    ```bash
    docker compose up --build --watch
    ```
-   the first run takes a few minutes: it builds the images, generates the gRPC code from the service `.proto` files, and creates the databases from each service's `schema.sql` and `seed.sql`. after that it starts in seconds
 4. open http://localhost:5001
 5. press ctrl+c to stop
 
@@ -23,8 +22,7 @@ nothing else needs installing on your machine, since python, the gRPC code and p
 The CLI lives in `clients/cli/` and uses Kong's gRPC gateway. To run with Docker:
 
 ```bash
-docker compose run --rm --build cli show concert
-docker compose run --rm --build cli create artist "Example Artist" artist@example.com
+docker compose run --rm --build cli shell
 ```
 
 To run outside Docker (with the containers running), install the packages in `requirements.txt`, generate the gRPC code into `clients/cli/`, and run it from there. It connects to `localhost:9080` unless you set the `GATEWAY_HOST` and `GATEWAY_PORT` environment variables.
