@@ -61,7 +61,7 @@ class CategoryService(categories_pb2_grpc.CategoryServiceServicer):
 
     def ShowCategories(self, request, context):
         records = invoke(context, services.find_categories, request.id or None)
-        return categories_pb2.ShowCategoriesResponse(categories=[to_category(x) for x in records])
+        return categories_pb2.ShowCategoriesResponse(categories=[to_category(x) for x in records]) # type: ignore
 
     def UpdateCategory(self, request, context):
         invoke(
@@ -78,38 +78,8 @@ class CategoryService(categories_pb2_grpc.CategoryServiceServicer):
         invoke(context, services.delete_category, request.id)
         return empty_pb2.Empty()
 
-
-class MediaService(media_pb2_grpc.MediaServiceServicer):
-    def CreateMedia(self, request, context):
-        result = invoke(
-            context, services.create_media,
-            event_id=request.event_id,
-            image_url=request.image_url,
-            custom_id=request.custom_id or None,
-        )
-        return media_pb2.IdResponse(id=string_id(result))
-
-    def ShowMedia(self, request, context):
-        records = invoke(context, services.find_media, request.id or None)
-        return media_pb2.ShowMediaResponse(media=[to_media(x) for x in records])
-
-    def UpdateMedia(self, request, context):
-        invoke(
-            context, services.update_media,
-            media_id=request.id,
-            event_id=request.event_id if request.HasField("event_id") else None,
-            image_url=request.image_url if request.HasField("image_url") else None,
-        )
-        return empty_pb2.Empty()
-
-    def DeleteMedia(self, request, context):
-        invoke(context, services.delete_media, request.id)
-        return empty_pb2.Empty()
-
-
 if __name__ == "__main__":
     serve(
         "logic",
         (categories_pb2_grpc.add_CategoryServiceServicer_to_server, CategoryService()),
-        (media_pb2_grpc.add_MediaServiceServicer_to_server, MediaService()),
     )

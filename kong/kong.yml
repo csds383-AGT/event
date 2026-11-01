@@ -33,7 +33,7 @@ services:
         strip_path: false
 
   - name: media
-    url: grpc://logic:50051
+    url: grpc://media:50051
     routes:
       - name: media
         protocols: [grpc]

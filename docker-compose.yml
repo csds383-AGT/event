@@ -173,6 +173,63 @@ services:
         - action: rebuild
           path: requirements.txt
 
+  media-db:
+    build: media/db
+    environment:
+      POSTGRES_USER: media
+      POSTGRES_PASSWORD: media
+      POSTGRES_DB: media
+    ports:
+      - "127.0.0.1:5437:5432"
+    volumes:
+      - media-db-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "media"]
+      interval: 2s
+      retries: 15
+    networks:
+      - media_db_net
+
+  media:
+    build:
+      context: .
+      dockerfile: media/Dockerfile
+    environment:
+      DATABASE_URL: postgresql://media:media@media-db:5432/media
+      BIND_ADDRESS: 172.30.83.70
+      GATEWAY_IP: 172.30.83.30
+      # Authorize the concerts container so media can validate event IDs
+      PEER_IPS: 172.30.83.40
+      CONCERTS_HOST: concerts
+    networks:
+      app_net:
+        ipv4_address: 172.30.83.70
+      media_db_net:
+    depends_on:
+      media-db:
+        condition: service_healthy
+    develop:
+      watch:
+        - action: sync+restart
+          path: media/service.py
+          target: /festhub/service.py
+        - action: sync+restart
+          path: media/server.py
+          target: /festhub/server.py
+        - action: sync+restart
+          path: common
+          target: /festhub/common
+        - action: rebuild
+          path: concerts/concerts.proto
+        - action: rebuild
+          path: artists/artists.proto
+        - action: rebuild
+          path: categories/categories.proto
+        - action: rebuild
+          path: media/media.proto
+        - action: rebuild
+          path: requirements.txt
+
   web:
     build:
       context: .
@@ -222,6 +279,8 @@ services:
     depends_on:
       - logic
       - artists
+      - concerts
+      - media
       - web
     healthcheck:
       test: ["CMD", "kong", "health"]
@@ -247,8 +306,11 @@ networks:
     driver: bridge
   concerts_db_net:
     driver: bridge
+  media_db_net:
+    driver: bridge
 
 volumes:
   db-data:
   artists-db-data:
+  media-db-data:
   concerts-db-data:
