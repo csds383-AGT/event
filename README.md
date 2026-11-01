@@ -23,12 +23,11 @@ nothing else needs installing on your machine, since python, the gRPC code and p
 The CLI lives in `clients/cli/` and uses Kong's gRPC gateway. To run with Docker:
 
 ```bash
-docker compose run --rm cli show concert
-docker compose run --rm cli create artist "Example Artist" artist@example.com
+docker compose run --rm --build cli show concert
+docker compose run --rm --build cli create artist "Example Artist" artist@example.com
 ```
 
-To run outside Docker, install the packages in `requirements.txt` and
-set `GATEWAY_HOST` and `GATEWAY_PORT` in clients/cli/cli_api.py (defaults: `localhost` and `9080`).
+To run outside Docker (with the containers running), install the packages in `requirements.txt`, generate the gRPC code into `clients/cli/`, and run it from there. It connects to `localhost:9080` unless you set the `GATEWAY_HOST` and `GATEWAY_PORT` environment variables.
 
 ```bash
 python3 -m venv .venv
@@ -36,7 +35,6 @@ source .venv/bin/activate       # macOS/Linux
 # .venv\Scripts\activate        # Windows
 
 pip install -r requirements.txt
-```
 
 python3 -m grpc_tools.protoc \
   -I services/concerts \
@@ -50,9 +48,9 @@ python3 -m grpc_tools.protoc \
   services/categories/categories.proto \
   services/media/media.proto
 
-
-  cd clients/cli
+cd clients/cli
 python3 cli.py show concert
+```
 
 ## what's running
 
@@ -60,11 +58,15 @@ python3 cli.py show concert
 |---|---|---|
 | kong (api gateway) | `172.30.83.30:8000` (http) and `:9080` (gRPC) on `app_net` | http://localhost:5001 and `localhost:9080` |
 | web (flask site) | `172.30.83.10:5000` on `app_net` | through kong at http://localhost:5001 |
-| cli (on-demand client) | short-lived client on `app_net` | `docker compose run --rm cli ...` |
-| logic (concerts, categories and media gRPC server) | `172.30.83.20:50051` on `app_net` | not reachable, it only accepts calls from kong and artists |
-| artists (gRPC server) | `172.30.83.50:50051` on `app_net` | not reachable, it only accepts calls from kong and logic |
-| db (postgres) | `db:5432` on `db_net` | `localhost:5433`, user, password and database all `festhub` |
+| cli (on-demand client) | short-lived client on `app_net` | `docker compose run --rm --build cli ...` |
+| concerts (gRPC server) | `172.30.83.40:50051` on `app_net` | not reachable, it only accepts calls from kong, artists, categories and media |
+| artists (gRPC server) | `172.30.83.50:50051` on `app_net` | not reachable, it only accepts calls from kong and concerts |
+| categories (gRPC server) | `172.30.83.60:50051` on `app_net` | not reachable, it only accepts calls from kong and concerts |
+| media (gRPC server) | `172.30.83.70:50051` on `app_net` | not reachable, it only accepts calls from kong and concerts |
+| concerts-db (postgres) | `concerts-db:5432` on `concerts_db_net` | `localhost:5434`, user, password and database all `concerts` |
 | artists-db (postgres) | `artists-db:5432` on `artists_db_net` | `localhost:5435`, user, password and database all `artists` |
+| categories-db (postgres) | `categories-db:5432` on `categories_db_net` | `localhost:5436`, user, password and database all `categories` |
+| media-db (postgres) | `media-db:5432` on `media_db_net` | `localhost:5437`, user, password and database all `media` |
 
 ## dev notes
 
@@ -76,4 +78,4 @@ to reset the databases to the demo data (needed whenever a service `schema.sql` 
 docker compose down -v
 ```
 
-if you want to access the postgres database  in your ide, use this config: ![img.png](img.png)
+if you want to access a postgres database in your ide, use this config with the port, user, password and database from the table above: ![img.png](img.png)

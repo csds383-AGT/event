@@ -12,7 +12,6 @@ RUN python -m grpc_tools.protoc \
     protos/*.proto
 
 COPY common common
-COPY services/logic logic
-COPY services/logic/backend-server.py .
+COPY services/categories/service.py services/categories/server.py ./
 
-CMD ["python", "backend-server.py"]
+CMD ["python", "server.py"]

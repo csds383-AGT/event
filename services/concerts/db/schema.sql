@@ -19,12 +19,5 @@ CREATE TABLE IF NOT EXISTS event_categories (
     PRIMARY KEY (event_id, category_id)
 );
 
-CREATE TABLE IF NOT EXISTS event_media (
-    event_id UUID NOT NULL REFERENCES concert_events(id) ON DELETE CASCADE,
-    media_id UUID NOT NULL,
-    PRIMARY KEY (event_id, media_id)
-);
-
 CREATE INDEX IF NOT EXISTS idx_bookings_artist_id ON bookings(artist_id);
 CREATE INDEX IF NOT EXISTS idx_categories_category_id ON event_categories(category_id);
-CREATE INDEX IF NOT EXISTS idx_media_media_id ON event_media(media_id);

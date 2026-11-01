@@ -25,7 +25,7 @@ services:
         strip_path: false
 
   - name: categories
-    url: grpc://logic:50051
+    url: grpc://categories:50051
     routes:
       - name: categories
         protocols: [grpc]
