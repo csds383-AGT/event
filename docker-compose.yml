@@ -323,6 +323,22 @@ services:
         - action: rebuild
           path: gateway/kong.yml
 
+  rabbitmq:
+    build: broker
+    ports:
+      - "127.0.0.1:5672:5672"
+      - "127.0.0.1:15672:15672"
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "check_port_connectivity"]
+      interval: 5s
+      retries: 20
+    networks:
+      - broker_net
+    develop:
+      watch:
+        - action: rebuild
+          path: broker
+
 networks:
   app_net:
     driver: bridge
@@ -339,6 +355,8 @@ networks:
   categories_db_net:
     driver: bridge
   media_db_net:
+    driver: bridge
+  broker_net:
     driver: bridge
 
 volumes:

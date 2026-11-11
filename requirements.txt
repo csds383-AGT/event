@@ -5,3 +5,4 @@ psycopg-pool
 flask
 grpcio
 grpcio-tools
+pika
