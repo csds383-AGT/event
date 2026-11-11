@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "name": "festhub",
+      "password_hash": "7WIB8CuY7pvpeBN+upxA9pyTspOEr3bcRirtG8/IbVj5gzMz",
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "tags": ["administrator"]
+    }
+  ],
+  "vhosts": [
+    {"name": "/"}
+  ],
+  "permissions": [
+    {"user": "festhub", "vhost": "/", "configure": ".*", "write": ".*", "read": ".*"}
+  ],
+  "exchanges": [
+    {"name": "festhub.events", "vhost": "/", "type": "topic", "durable": true, "auto_delete": false, "internal": false, "arguments": {}},
+    {"name": "festhub.dlx", "vhost": "/", "type": "direct", "durable": true, "auto_delete": false, "internal": false, "arguments": {}}
+  ],
+  "queues": [
+    {"name": "artist-processor", "vhost": "/", "durable": true, "auto_delete": false,
+     "arguments": {"x-dead-letter-exchange": "festhub.dlx", "x-dead-letter-routing-key": "artist"}},
+    {"name": "concert-processor", "vhost": "/", "durable": true, "auto_delete": false,
+     "arguments": {"x-dead-letter-exchange": "festhub.dlx", "x-dead-letter-routing-key": "concert"}},
+    {"name": "category-processor", "vhost": "/", "durable": true, "auto_delete": false,
+     "arguments": {"x-dead-letter-exchange": "festhub.dlx", "x-dead-letter-routing-key": "category"}},
+    {"name": "media-processor", "vhost": "/", "durable": true, "auto_delete": false,
+     "arguments": {"x-dead-letter-exchange": "festhub.dlx", "x-dead-letter-routing-key": "media"}},
+    {"name": "artist.dlq", "vhost": "/", "durable": true, "auto_delete": false, "arguments": {}},
+    {"name": "concert.dlq", "vhost": "/", "durable": true, "auto_delete": false, "arguments": {}},
+    {"name": "category.dlq", "vhost": "/", "durable": true, "auto_delete": false, "arguments": {}},
+    {"name": "media.dlq", "vhost": "/", "durable": true, "auto_delete": false, "arguments": {}}
+  ],
+  "bindings": [
+    {"source": "festhub.events", "vhost": "/", "destination": "artist-processor", "destination_type": "queue", "routing_key": "concert.submitted", "arguments": {}},
+    {"source": "festhub.events", "vhost": "/", "destination": "concert-processor", "destination_type": "queue", "routing_key": "artist.registered", "arguments": {}},
+    {"source": "festhub.events", "vhost": "/", "destination": "category-processor", "destination_type": "queue", "routing_key": "concert.scheduled", "arguments": {}},
+    {"source": "festhub.events", "vhost": "/", "destination": "media-processor", "destination_type": "queue", "routing_key": "concert.scheduled", "arguments": {}},
+    {"source": "festhub.dlx", "vhost": "/", "destination": "artist.dlq", "destination_type": "queue", "routing_key": "artist", "arguments": {}},
+    {"source": "festhub.dlx", "vhost": "/", "destination": "concert.dlq", "destination_type": "queue", "routing_key": "concert", "arguments": {}},
+    {"source": "festhub.dlx", "vhost": "/", "destination": "category.dlq", "destination_type": "queue", "routing_key": "category", "arguments": {}},
+    {"source": "festhub.dlx", "vhost": "/", "destination": "media.dlq", "destination_type": "queue", "routing_key": "media", "arguments": {}}
+  ]
+}
