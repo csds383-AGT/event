@@ -1,3 +1,38 @@
+x-processor: &processor
+  build:
+    context: .
+    dockerfile: pipeline/Dockerfile
+  environment:
+    AMQP_URL: amqp://festhub:festhub@rabbitmq:5672/
+    GATEWAY_HOST: kong
+    GATEWAY_PORT: "9080"
+  networks:
+    - app_net
+    - broker_net
+  depends_on:
+    rabbitmq:
+      condition: service_healthy
+    kong:
+      condition: service_healthy
+  restart: on-failure
+  develop:
+    watch:
+      - action: sync+restart
+        path: pipeline
+        target: /festhub
+      - action: rebuild
+        path: clients/cli/cli_api.py
+      - action: rebuild
+        path: services/concerts/concerts.proto
+      - action: rebuild
+        path: services/artists/artists.proto
+      - action: rebuild
+        path: services/categories/categories.proto
+      - action: rebuild
+        path: services/media/media.proto
+      - action: rebuild
+        path: requirements.txt
+
 services:
   artists-db:
     build: services/artists/db
@@ -338,6 +373,39 @@ services:
       watch:
         - action: rebuild
           path: broker
+
+  artist-processor:
+    <<: *processor
+    command: ["python", "artist_processor.py"]
+
+  concert-processor:
+    <<: *processor
+    command: ["python", "concert_processor.py"]
+
+  category-processor:
+    <<: *processor
+    command: ["python", "category_processor.py"]
+
+  media-processor:
+    <<: *processor
+    command: ["python", "media_processor.py"]
+
+  publisher:
+    build:
+      context: .
+      dockerfile: pipeline/Dockerfile
+    command: ["python", "publisher.py", "/events"]
+    environment:
+      AMQP_URL: amqp://festhub:festhub@rabbitmq:5672/
+    volumes:
+      - ./event:/events:ro
+    networks:
+      - broker_net
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    profiles:
+      - publisher
 
 networks:
   app_net:
