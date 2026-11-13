@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Beats-581",
+        "booking_contact": "booking_thebeats581@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Beats-581 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #810. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 276,
+                "ticket_price": 115.04,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8852.jpg"
+                }
+            }
+        ]
+    }
+}

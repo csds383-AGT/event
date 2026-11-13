@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Project-448",
+        "booking_contact": "booking_sonicproject448@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Sonic Project-448 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #115. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 22,
+                "ticket_price": 81.47,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9022.jpg"
+                }
+            }
+        ]
+    }
+}

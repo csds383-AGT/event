@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Vibes-556",
+        "booking_contact": "booking_cosmicvibes556@example.com",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Vibes-556 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #992. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4312,
+                "ticket_price": 109.65,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9502.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Echoes-971",
+        "booking_contact": "booking_cosmicechoes971@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Echoes-971 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #261. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2236,
+                "ticket_price": 60.31,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6417.jpg"
+                }
+            }
+        ]
+    }
+}

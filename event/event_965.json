@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Vibes-580",
+        "booking_contact": "booking_sonicvibes580@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Sonic Vibes-580 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #965. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1902,
+                "ticket_price": 134.29,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6556.jpg"
+                }
+            }
+        ]
+    }
+}

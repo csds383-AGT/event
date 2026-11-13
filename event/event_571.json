@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Ghosts-902",
+        "booking_contact": "booking_velvetghosts902@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Ghosts-902 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #571. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1465,
+                "ticket_price": 102.0,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8925.jpg"
+                }
+            }
+        ]
+    }
+}

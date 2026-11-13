@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Theory-116",
+        "booking_contact": "booking_electrictheory116@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Theory-116 Live Session",
+                "event_description": "Live entertainment registration profile event index record #360. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3616,
+                "ticket_price": 122.28,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4314.jpg"
+                }
+            }
+        ]
+    }
+}

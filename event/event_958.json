@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Syndicate-888",
+        "booking_contact": "booking_electricsyndicate888@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Syndicate-888 Live Session",
+                "event_description": "Live entertainment registration profile event index record #958. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3883,
+                "ticket_price": 114.14,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3721.jpg"
+                }
+            }
+        ]
+    }
+}

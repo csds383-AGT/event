@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Ghosts-385",
+        "booking_contact": "booking_cosmicghosts385@example.com",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Ghosts-385 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #872. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 886,
+                "ticket_price": 43.71,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9147.jpg"
+                }
+            }
+        ]
+    }
+}

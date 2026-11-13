@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Project-588",
+        "booking_contact": "booking_velvetproject588@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Velvet Project-588 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #469. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 310,
+                "ticket_price": 140.44,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1230.jpg"
+                }
+            }
+        ]
+    }
+}

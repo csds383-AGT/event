@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Syndicate-754",
+        "booking_contact": "booking_acousticsyndicate754@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Syndicate-754 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #725. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1643,
+                "ticket_price": 513833.2,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8227.jpg"
+                }
+            }
+        ]
+    }
+}

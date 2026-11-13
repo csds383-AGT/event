@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Theory-631",
+        "booking_contact": "booking_neontheory631@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Theory-631 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #105. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2279,
+                "ticket_price": 57.65,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8141.jpg"
+                }
+            }
+        ]
+    }
+}

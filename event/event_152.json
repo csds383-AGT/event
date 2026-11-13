@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Project-711",
+        "booking_contact": "booking_lunarproject711@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Project-711 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #152. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3717,
+                "ticket_price": 133.8,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2624.jpg"
+                }
+            }
+        ]
+    }
+}

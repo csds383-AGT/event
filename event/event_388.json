@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Waves-705",
+        "booking_contact": "booking_cosmicwaves705@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Waves-705 Live Session",
+                "event_description": "Live entertainment registration profile event index record #388. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4478,
+                "ticket_price": 193.71,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3466.jpg"
+                }
+            }
+        ]
+    }
+}

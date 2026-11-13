@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Vibes-830",
+        "booking_contact": "booking_electricvibes830@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Vibes-830 Live Session",
+                "event_description": "Live entertainment registration profile event index record #921. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2181,
+                "ticket_price": 82.67,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7259.jpg"
+                }
+            }
+        ]
+    }
+}

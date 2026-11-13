@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Waves-628",
+        "booking_contact": "booking_velvetwaves628@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Waves-628 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #586. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2158,
+                "ticket_price": 73.34,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7536.jpg"
+                }
+            }
+        ]
+    }
+}

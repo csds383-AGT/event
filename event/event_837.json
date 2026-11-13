@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Orchestra-624",
+        "booking_contact": "booking_cosmicorchestra624@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Orchestra-624 Live Session",
+                "event_description": "Live entertainment registration profile event index record #837. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4018,
+                "ticket_price": 89.67,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9381.jpg"
+                }
+            }
+        ]
+    }
+}

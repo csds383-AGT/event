@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Ghosts-180",
+        "booking_contact": "booking_cosmicghosts180@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Ghosts-180 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #753. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 725,
+                "ticket_price": 72.63,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9834.jpg"
+                }
+            }
+        ]
+    }
+}

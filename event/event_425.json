@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Echoes-484",
+        "booking_contact": "booking_lunarechoes484@example.com",
+        "concert_events": [
+            {
+                "event_name": "Lunar Echoes-484 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #425. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 615,
+                "ticket_price": 544906.31,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6536.jpg"
+                }
+            }
+        ]
+    }
+}

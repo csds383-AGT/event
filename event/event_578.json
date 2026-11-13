@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Vibes-729",
+        "booking_contact": "booking_radioactivevibes729@example.com",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Vibes-729 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #578. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 296,
+                "ticket_price": 99.54,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3579.jpg"
+                }
+            }
+        ]
+    }
+}

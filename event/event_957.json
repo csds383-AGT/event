@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Vibes-592",
+        "booking_contact": "booking_thevibes592@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Vibes-592 Live Session",
+                "event_description": "Live entertainment registration profile event index record #957. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1981,
+                "ticket_price": 117.41,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4127.jpg"
+                }
+            }
+        ]
+    }
+}

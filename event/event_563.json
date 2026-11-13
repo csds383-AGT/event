@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Ghosts-800",
+        "booking_contact": "booking_radioactiveghosts800@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Ghosts-800 Live Session",
+                "event_description": "Live entertainment registration profile event index record #563. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4961,
+                "ticket_price": 37.63,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1639.jpg"
+                }
+            }
+        ]
+    }
+}

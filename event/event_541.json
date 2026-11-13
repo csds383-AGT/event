@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Echoes-679",
+        "booking_contact": "booking_acousticechoes679@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Echoes-679 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #541. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2592,
+                "ticket_price": 240.28,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1079.jpg"
+                }
+            }
+        ]
+    }
+}

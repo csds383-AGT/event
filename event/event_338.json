@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Rebels-539",
+        "booking_contact": "booking_cosmicrebels539@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Rebels-539 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #338. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1760,
+                "ticket_price": 63.36,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2667.jpg"
+                }
+            }
+        ]
+    }
+}

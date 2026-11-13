@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Rebels-538",
+        "booking_contact": "booking_sonicrebels538@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Sonic Rebels-538 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #13. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2966,
+                "ticket_price": 66.54,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9348.jpg"
+                }
+            }
+        ]
+    }
+}

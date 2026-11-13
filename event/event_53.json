@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Rebels-294",
+        "booking_contact": "booking_velvetrebels294@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Velvet Rebels-294 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #53. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3573,
+                "ticket_price": 15.4,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4228.jpg"
+                }
+            }
+        ]
+    }
+}

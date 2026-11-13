@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Rebels-594",
+        "booking_contact": "booking_acousticrebels594@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Rebels-594 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #426. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3534,
+                "ticket_price": 236.47,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8113.jpg"
+                }
+            }
+        ]
+    }
+}

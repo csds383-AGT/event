@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Waves-391",
+        "booking_contact": "booking_thewaves391@example.com",
+        "concert_events": [
+            {
+                "event_name": "The Waves-391 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #799. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2060,
+                "ticket_price": 93.56,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1709.jpg"
+                }
+            }
+        ]
+    }
+}

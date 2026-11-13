@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Project-710",
+        "booking_contact": "booking_velvetproject710@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Velvet Project-710 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #15. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2060,
+                "ticket_price": 243.2,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2876.jpg"
+                }
+            }
+        ]
+    }
+}

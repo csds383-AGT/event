@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Echoes-137",
+        "booking_contact": "booking_velvetechoes137@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Velvet Echoes-137 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #259. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1527,
+                "ticket_price": 235.1,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1613.jpg"
+                }
+            }
+        ]
+    }
+}

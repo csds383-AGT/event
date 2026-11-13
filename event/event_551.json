@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Project-580",
+        "booking_contact": "booking_lunarproject580@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Lunar Project-580 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #551. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 327,
+                "ticket_price": 245.44,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2691.jpg"
+                }
+            }
+        ]
+    }
+}

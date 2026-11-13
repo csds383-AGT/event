@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Waves-373",
+        "booking_contact": "booking_lunarwaves373@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Waves-373 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #820. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3465,
+                "ticket_price": 80.13,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7108.jpg"
+                }
+            }
+        ]
+    }
+}

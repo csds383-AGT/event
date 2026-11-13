@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Project-438",
+        "booking_contact": "booking_velvetproject438@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Project-438 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #68. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3407,
+                "ticket_price": 29.63,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7381.jpg"
+                }
+            }
+        ]
+    }
+}

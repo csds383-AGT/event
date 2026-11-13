@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Rebels-532",
+        "booking_contact": "booking_electricrebels532@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Rebels-532 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #2. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 768,
+                "ticket_price": 66.38,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1434.jpg"
+                }
+            }
+        ]
+    }
+}

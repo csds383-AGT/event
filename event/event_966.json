@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Theory-234",
+        "booking_contact": "booking_acoustictheory234@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Theory-234 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #966. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3198,
+                "ticket_price": 240.55,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8738.jpg"
+                }
+            }
+        ]
+    }
+}

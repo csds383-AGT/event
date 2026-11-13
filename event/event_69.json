@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Beats-977",
+        "booking_contact": "booking_acousticbeats977@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Beats-977 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #69. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3908,
+                "ticket_price": 16.39,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5892.jpg"
+                }
+            }
+        ]
+    }
+}

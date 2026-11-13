@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Ghosts-270",
+        "booking_contact": "booking_neonghosts270@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Ghosts-270 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #344. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1150,
+                "ticket_price": 58.97,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1878.jpg"
+                }
+            }
+        ]
+    }
+}

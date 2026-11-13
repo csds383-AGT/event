@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Syndicate-574",
+        "booking_contact": "booking_thesyndicate574@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Syndicate-574 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #278. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4461,
+                "ticket_price": 114.67,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4762.jpg"
+                }
+            }
+        ]
+    }
+}

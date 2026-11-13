@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Beats-484",
+        "booking_contact": "booking_lunarbeats484@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Beats-484 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #475. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4381,
+                "ticket_price": 161.44,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1785.jpg"
+                }
+            }
+        ]
+    }
+}

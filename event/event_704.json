@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Project-282",
+        "booking_contact": "booking_electricproject282@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Project-282 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #704. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2330,
+                "ticket_price": 158.61,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3906.jpg"
+                }
+            }
+        ]
+    }
+}

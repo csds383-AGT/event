@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Project-149",
+        "booking_contact": "booking_acousticproject149@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Project-149 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #998. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1767,
+                "ticket_price": 58.02,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1034.jpg"
+                }
+            }
+        ]
+    }
+}

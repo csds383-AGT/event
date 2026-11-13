@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Vibes-291",
+        "booking_contact": "booking_lunarvibes291@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Lunar Vibes-291 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #404. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3654,
+                "ticket_price": 222.6,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5026.jpg"
+                }
+            }
+        ]
+    }
+}

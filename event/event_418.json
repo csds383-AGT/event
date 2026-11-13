@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Syndicate-851",
+        "booking_contact": "booking_velvetsyndicate851@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Syndicate-851 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #418. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1044,
+                "ticket_price": 56.76,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7415.jpg"
+                }
+            }
+        ]
+    }
+}

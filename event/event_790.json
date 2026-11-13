@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Waves-223",
+        "booking_contact": "booking_velvetwaves223@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Waves-223 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #790. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4472,
+                "ticket_price": 47.27,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1746.jpg"
+                }
+            }
+        ]
+    }
+}

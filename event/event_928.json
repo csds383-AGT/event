@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Beats-694",
+        "booking_contact": "booking_radioactivebeats694@example.com",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Beats-694 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #928. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1392,
+                "ticket_price": 133.38,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8669.jpg"
+                }
+            }
+        ]
+    }
+}

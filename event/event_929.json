@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Orchestra-424",
+        "booking_contact": "booking_neonorchestra424@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Orchestra-424 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #929. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3547,
+                "ticket_price": 48.32,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6132.jpg"
+                }
+            }
+        ]
+    }
+}

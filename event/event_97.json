@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Orchestra-881",
+        "booking_contact": "booking_acousticorchestra881@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Orchestra-881 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #97. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1729,
+                "ticket_price": 77.19,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3573.jpg"
+                }
+            }
+        ]
+    }
+}

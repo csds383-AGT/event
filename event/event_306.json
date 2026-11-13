@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Orchestra-611",
+        "booking_contact": "booking_neonorchestra611@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Orchestra-611 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #306. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2714,
+                "ticket_price": 147.98,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9653.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Echoes-140",
+        "booking_contact": "booking_radioactiveechoes140@example.com",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Echoes-140 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #180. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3587,
+                "ticket_price": 247.88,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9564.jpg"
+                }
+            }
+        ]
+    }
+}

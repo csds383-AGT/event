@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Orchestra-441",
+        "booking_contact": "booking_acousticorchestra441@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Orchestra-441 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #724. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 845,
+                "ticket_price": 137.34,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1368.jpg"
+                }
+            }
+        ]
+    }
+}

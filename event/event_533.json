@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Theory-490",
+        "booking_contact": "booking_sonictheory490@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Sonic Theory-490 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #533. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 253,
+                "ticket_price": 126.39,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4602.jpg"
+                }
+            }
+        ]
+    }
+}

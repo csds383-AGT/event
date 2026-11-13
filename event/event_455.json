@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Syndicate-323",
+        "booking_contact": "booking_cosmicsyndicate323@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Syndicate-323 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #455. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4266,
+                "ticket_price": 208.71,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2676.jpg"
+                }
+            }
+        ]
+    }
+}

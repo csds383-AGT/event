@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Echoes-832",
+        "booking_contact": "booking_sonicechoes832@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Sonic Echoes-832 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #623. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 68,
+                "ticket_price": 69.71,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1241.jpg"
+                }
+            }
+        ]
+    }
+}

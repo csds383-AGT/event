@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Theory-597",
+        "booking_contact": "booking_lunartheory597@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Theory-597 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #821. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1006,
+                "ticket_price": 125.49,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9730.jpg"
+                }
+            }
+        ]
+    }
+}

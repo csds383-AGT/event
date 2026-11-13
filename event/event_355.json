@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Echoes-691",
+        "booking_contact": "booking_cosmicechoes691@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Echoes-691 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #355. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3394,
+                "ticket_price": 103.17,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2525.jpg"
+                }
+            }
+        ]
+    }
+}

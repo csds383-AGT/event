@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Project-382",
+        "booking_contact": "booking_neonproject382@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Project-382 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #320. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3967,
+                "ticket_price": 198.93,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5123.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Echoes-700",
+        "booking_contact": "booking_theechoes700@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Echoes-700 Live Session",
+                "event_description": "Live entertainment registration profile event index record #415. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 909,
+                "ticket_price": 213.92,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2188.jpg"
+                }
+            }
+        ]
+    }
+}

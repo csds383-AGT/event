@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Orchestra-126",
+        "booking_contact": "booking_midnightorchestra126@example.com",
+        "concert_events": [
+            {
+                "event_name": "Midnight Orchestra-126 Live Session",
+                "event_description": "Live entertainment registration profile event index record #430. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2391,
+                "ticket_price": 244.61,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2892.jpg"
+                }
+            }
+        ]
+    }
+}

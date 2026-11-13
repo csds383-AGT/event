@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Ghosts-653",
+        "booking_contact": "booking_neonghosts653@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Ghosts-653 Live Session",
+                "event_description": "Live entertainment registration profile event index record #985. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 761,
+                "ticket_price": 135.24,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9541.jpg"
+                }
+            }
+        ]
+    }
+}

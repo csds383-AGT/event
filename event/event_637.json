@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Ghosts-258",
+        "booking_contact": "booking_electricghosts258@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Ghosts-258 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #637. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2158,
+                "ticket_price": 142.28,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1011.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Echoes-752",
+        "booking_contact": "booking_lunarechoes752@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Lunar Echoes-752 Live Session",
+                "event_description": "Live entertainment registration profile event index record #43. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3620,
+                "ticket_price": 144.64,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1158.jpg"
+                }
+            }
+        ]
+    }
+}

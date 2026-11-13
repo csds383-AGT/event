@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Orchestra-897",
+        "booking_contact": "booking_theorchestra897@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Orchestra-897 Live Session",
+                "event_description": "Live entertainment registration profile event index record #62. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1441,
+                "ticket_price": 203.97,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8611.jpg"
+                }
+            }
+        ]
+    }
+}

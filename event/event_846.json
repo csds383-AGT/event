@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Orchestra-883",
+        "booking_contact": "booking_theorchestra883@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Orchestra-883 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #846. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 547,
+                "ticket_price": 155.74,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8872.jpg"
+                }
+            }
+        ]
+    }
+}

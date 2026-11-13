@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Waves-961",
+        "booking_contact": "booking_velvetwaves961@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Waves-961 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #322. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2700,
+                "ticket_price": 118.45,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3230.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Beats-162",
+        "booking_contact": "booking_cosmicbeats162@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Beats-162 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #150. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 0,
+                "ticket_price": 274.14,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2204.jpg"
+                }
+            }
+        ]
+    }
+}

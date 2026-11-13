@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Ghosts-525",
+        "booking_contact": "booking_radioactiveghosts525@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Ghosts-525 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #647. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4724,
+                "ticket_price": 99.12,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7997.jpg"
+                }
+            }
+        ]
+    }
+}

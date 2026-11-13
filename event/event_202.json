@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Theory-144",
+        "booking_contact": "booking_velvettheory144@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Theory-144 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #202. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3059,
+                "ticket_price": 74.61,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6850.jpg"
+                }
+            }
+        ]
+    }
+}

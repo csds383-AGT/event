@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Syndicate-865",
+        "booking_contact": "booking_cosmicsyndicate865@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Syndicate-865 Live Session",
+                "event_description": "Live entertainment registration profile event index record #254. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1656,
+                "ticket_price": 209.57,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5450.jpg"
+                }
+            }
+        ]
+    }
+}

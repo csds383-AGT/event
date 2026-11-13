@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Ghosts-328",
+        "booking_contact": "booking_theghosts328@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Ghosts-328 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #494. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3102,
+                "ticket_price": 109.77,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2291.jpg"
+                }
+            }
+        ]
+    }
+}

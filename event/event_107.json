@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Project-810",
+        "booking_contact": "booking_lunarproject810@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Lunar Project-810 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #107. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3281,
+                "ticket_price": 206.19,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1601.jpg"
+                }
+            }
+        ]
+    }
+}

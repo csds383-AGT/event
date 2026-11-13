@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Echoes-920",
+        "booking_contact": "booking_lunarechoes920@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Echoes-920 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #170. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2965,
+                "ticket_price": 35.71,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4986.jpg"
+                }
+            }
+        ]
+    }
+}

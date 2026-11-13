@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Ghosts-928",
+        "booking_contact": "booking_sonicghosts928@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Sonic Ghosts-928 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #620. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1541,
+                "ticket_price": 215.57,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3238.jpg"
+                }
+            }
+        ]
+    }
+}

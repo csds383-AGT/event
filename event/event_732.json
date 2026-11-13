@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Syndicate-472",
+        "booking_contact": "booking_acousticsyndicate472@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Syndicate-472 Live Session",
+                "event_description": "Live entertainment registration profile event index record #732. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2707,
+                "ticket_price": 200.36,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8426.jpg"
+                }
+            }
+        ]
+    }
+}

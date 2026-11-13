@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Beats-749",
+        "booking_contact": "booking_acousticbeats749@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Beats-749 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #658. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 444,
+                "ticket_price": 86.62,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6231.jpg"
+                }
+            }
+        ]
+    }
+}

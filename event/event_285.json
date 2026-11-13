@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Theory-148",
+        "booking_contact": "booking_radioactivetheory148@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Theory-148 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #285. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3123,
+                "ticket_price": 199.66,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7821.jpg"
+                }
+            }
+        ]
+    }
+}

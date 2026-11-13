@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Syndicate-129",
+        "booking_contact": "booking_neonsyndicate129@example.com",
+        "concert_events": [
+            {
+                "event_name": "Neon Syndicate-129 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #124. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 460,
+                "ticket_price": 83.94,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8056.jpg"
+                }
+            }
+        ]
+    }
+}

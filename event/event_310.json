@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Project-873",
+        "booking_contact": "booking_lunarproject873@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Project-873 Live Session",
+                "event_description": "Live entertainment registration profile event index record #310. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 643,
+                "ticket_price": 132.69,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1879.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Vibes-844",
+        "booking_contact": "booking_midnightvibes844@example.com",
+        "concert_events": [
+            {
+                "event_name": "Midnight Vibes-844 Live Session",
+                "event_description": "Live entertainment registration profile event index record #474. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 180,
+                "ticket_price": 153.58,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3017.jpg"
+                }
+            }
+        ]
+    }
+}

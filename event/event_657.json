@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Beats-889",
+        "booking_contact": "booking_electricbeats889@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Beats-889 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #657. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3558,
+                "ticket_price": 112.88,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4714.jpg"
+                }
+            }
+        ]
+    }
+}

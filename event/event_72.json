@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Echoes-737",
+        "booking_contact": "booking_cosmicechoes737@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Echoes-737 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #72. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3228,
+                "ticket_price": 154.09,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2375.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Rebels-720",
+        "booking_contact": "booking_sonicrebels720@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Sonic Rebels-720 Live Session",
+                "event_description": "Live entertainment registration profile event index record #478. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3432,
+                "ticket_price": 210.2,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9381.jpg"
+                }
+            }
+        ]
+    }
+}

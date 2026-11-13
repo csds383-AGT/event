@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Vibes-650",
+        "booking_contact": "booking_electricvibes650@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Electric Vibes-650 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #528. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3566,
+                "ticket_price": 166.94,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3519.jpg"
+                }
+            }
+        ]
+    }
+}

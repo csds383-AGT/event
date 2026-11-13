@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Vibes-107",
+        "booking_contact": "booking_acousticvibes107@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Vibes-107 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #24. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 483,
+                "ticket_price": 68.8,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6413.jpg"
+                }
+            }
+        ]
+    }
+}

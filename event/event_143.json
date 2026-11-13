@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Syndicate-294",
+        "booking_contact": "booking_velvetsyndicate294@example.com",
+        "concert_events": [
+            {
+                "event_name": "Velvet Syndicate-294 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #143. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 751,
+                "ticket_price": 170.75,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1349.jpg"
+                }
+            }
+        ]
+    }
+}

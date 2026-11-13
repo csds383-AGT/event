@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Syndicate-301",
+        "booking_contact": "booking_electricsyndicate301@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Electric Syndicate-301 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #226. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2249,
+                "ticket_price": 44.42,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9740.jpg"
+                }
+            }
+        ]
+    }
+}

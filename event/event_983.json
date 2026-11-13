@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Echoes-817",
+        "booking_contact": "booking_acousticechoes817@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Echoes-817 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #983. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1681,
+                "ticket_price": 223.58,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8244.jpg"
+                }
+            }
+        ]
+    }
+}

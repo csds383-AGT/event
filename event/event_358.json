@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Project-323",
+        "booking_contact": "booking_radioactiveproject323@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Project-323 Live Session",
+                "event_description": "Live entertainment registration profile event index record #358. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4053,
+                "ticket_price": 78.11,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6533.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Beats-426",
+        "booking_contact": "booking_midnightbeats426@example.com",
+        "concert_events": [
+            {
+                "event_name": "Midnight Beats-426 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #195. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2747,
+                "ticket_price": 200.97,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1627.jpg"
+                }
+            }
+        ]
+    }
+}

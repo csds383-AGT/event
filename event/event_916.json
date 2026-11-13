@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Theory-589",
+        "booking_contact": "booking_lunartheory589@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Theory-589 Live Session",
+                "event_description": "Live entertainment registration profile event index record #916. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2136,
+                "ticket_price": 55.77,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6367.jpg"
+                }
+            }
+        ]
+    }
+}

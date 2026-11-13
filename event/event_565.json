@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Project-634",
+        "booking_contact": "booking_theproject634@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Project-634 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #565. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 356,
+                "ticket_price": 178.95,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4759.jpg"
+                }
+            }
+        ]
+    }
+}

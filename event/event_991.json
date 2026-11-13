@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Echoes-828",
+        "booking_contact": "booking_electricechoes828@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Echoes-828 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #991. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 672,
+                "ticket_price": 36.68,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3130.jpg"
+                }
+            }
+        ]
+    }
+}

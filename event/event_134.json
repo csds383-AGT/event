@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Ghosts-379",
+        "booking_contact": "booking_radioactiveghosts379@example.com",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Ghosts-379 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #134. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3948,
+                "ticket_price": 242.34,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6549.jpg"
+                }
+            }
+        ]
+    }
+}

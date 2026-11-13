@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Waves-696",
+        "booking_contact": "booking_midnightwaves696@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Midnight Waves-696 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #924. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3754,
+                "ticket_price": 35.15,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3182.jpg"
+                }
+            }
+        ]
+    }
+}

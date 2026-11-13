@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Vibes-256",
+        "booking_contact": "booking_acousticvibes256@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Vibes-256 Live Session",
+                "event_description": "Live entertainment registration profile event index record #18. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4419,
+                "ticket_price": 239.07,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1009.jpg"
+                }
+            }
+        ]
+    }
+}

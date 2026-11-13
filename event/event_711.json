@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Vibes-918",
+        "booking_contact": "booking_electricvibes918@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Electric Vibes-918 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #711. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3392,
+                "ticket_price": 25.69,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4478.jpg"
+                }
+            }
+        ]
+    }
+}

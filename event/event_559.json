@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Echoes-157",
+        "booking_contact": "booking_acousticechoes157@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Echoes-157 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #559. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1475,
+                "ticket_price": 136.41,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1305.jpg"
+                }
+            }
+        ]
+    }
+}

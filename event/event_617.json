@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Project-917",
+        "booking_contact": "booking_theproject917@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Project-917 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #617. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1895,
+                "ticket_price": 202.24,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7121.jpg"
+                }
+            }
+        ]
+    }
+}

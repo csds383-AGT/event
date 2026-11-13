@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Waves-168",
+        "booking_contact": "booking_cosmicwaves168@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Waves-168 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #335. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 943,
+                "ticket_price": 20.31,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2791.jpg"
+                }
+            }
+        ]
+    }
+}

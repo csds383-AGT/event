@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Vibes-279",
+        "booking_contact": "booking_acousticvibes279@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Vibes-279 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #263. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3322,
+                "ticket_price": 209.34,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6372.jpg"
+                }
+            }
+        ]
+    }
+}

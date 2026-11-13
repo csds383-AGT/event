@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Theory-147",
+        "booking_contact": "booking_velvettheory147@example.com",
+        "concert_events": [
+            {
+                "event_name": "Velvet Theory-147 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #490. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2575,
+                "ticket_price": 17.9,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4669.jpg"
+                }
+            }
+        ]
+    }
+}

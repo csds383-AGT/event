@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Orchestra-667",
+        "booking_contact": "booking_lunarorchestra667@example.com",
+        "concert_events": [
+            {
+                "event_name": "Lunar Orchestra-667 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #587. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2572,
+                "ticket_price": 98.08,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5408.jpg"
+                }
+            }
+        ]
+    }
+}

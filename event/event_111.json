@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Beats-745",
+        "booking_contact": "booking_electricbeats745@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Electric Beats-745 Live Session",
+                "event_description": "Live entertainment registration profile event index record #111. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1298,
+                "ticket_price": 88.03,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7684.jpg"
+                }
+            }
+        ]
+    }
+}

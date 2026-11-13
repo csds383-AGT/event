@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Project-888",
+        "booking_contact": "booking_cosmicproject888@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Project-888 Live Session",
+                "event_description": "Live entertainment registration profile event index record #762. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3606,
+                "ticket_price": 185.61,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4454.jpg"
+                }
+            }
+        ]
+    }
+}

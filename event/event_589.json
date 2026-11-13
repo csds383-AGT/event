@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Vibes-954",
+        "booking_contact": "booking_midnightvibes954@example.com",
+        "concert_events": [
+            {
+                "event_name": "Midnight Vibes-954 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #589. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2917,
+                "ticket_price": 51.66,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2964.jpg"
+                }
+            }
+        ]
+    }
+}

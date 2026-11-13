@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Vibes-978",
+        "booking_contact": "booking_radioactivevibes978@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Vibes-978 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #909. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 65,
+                "ticket_price": 228.8,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5186.jpg"
+                }
+            }
+        ]
+    }
+}

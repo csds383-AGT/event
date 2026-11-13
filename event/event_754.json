@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Syndicate-727",
+        "booking_contact": "booking_acousticsyndicate727@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Syndicate-727 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #754. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4383,
+                "ticket_price": 197.95,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8438.jpg"
+                }
+            }
+        ]
+    }
+}

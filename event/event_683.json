@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Echoes-126",
+        "booking_contact": "booking_neonechoes126@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Echoes-126 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #683. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2187,
+                "ticket_price": 157.32,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4783.jpg"
+                }
+            }
+        ]
+    }
+}

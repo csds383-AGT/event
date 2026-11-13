@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Project-989",
+        "booking_contact": "booking_cosmicproject989@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Project-989 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #955. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4931,
+                "ticket_price": 185.59,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6910.jpg"
+                }
+            }
+        ]
+    }
+}

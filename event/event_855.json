@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Theory-456",
+        "booking_contact": "booking_thetheory456@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Theory-456 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #855. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2971,
+                "ticket_price": 47.67,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9570.jpg"
+                }
+            }
+        ]
+    }
+}

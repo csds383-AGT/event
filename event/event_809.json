@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Project-693",
+        "booking_contact": "booking_lunarproject693@example.com",
+        "concert_events": [
+            {
+                "event_name": "Lunar Project-693 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #809. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1221,
+                "ticket_price": 229.73,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7844.jpg"
+                }
+            }
+        ]
+    }
+}

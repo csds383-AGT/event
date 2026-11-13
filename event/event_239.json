@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Project-616",
+        "booking_contact": "booking_electricproject616@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Project-616 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #239. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2292,
+                "ticket_price": 208.95,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2946.jpg"
+                }
+            }
+        ]
+    }
+}

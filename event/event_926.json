@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Ghosts-160",
+        "booking_contact": "booking_electricghosts160@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Ghosts-160 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #926. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1924,
+                "ticket_price": 125.67,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1745.jpg"
+                }
+            }
+        ]
+    }
+}

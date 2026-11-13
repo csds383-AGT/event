@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Project-738",
+        "booking_contact": "booking_acousticproject738@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Project-738 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #749. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4174,
+                "ticket_price": 114.67,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7303.jpg"
+                }
+            }
+        ]
+    }
+}

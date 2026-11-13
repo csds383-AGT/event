@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Project-200",
+        "booking_contact": "booking_theproject200@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Project-200 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #769. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3654,
+                "ticket_price": 97.61,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5127.jpg"
+                }
+            }
+        ]
+    }
+}

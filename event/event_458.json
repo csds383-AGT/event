@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Echoes-629",
+        "booking_contact": "booking_midnightechoes629@example.com",
+        "concert_events": [
+            {
+                "event_name": "Midnight Echoes-629 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #458. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4916,
+                "ticket_price": 109.96,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3292.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Syndicate-779",
+        "booking_contact": "booking_radioactivesyndicate779@example.com",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Syndicate-779 Live Session",
+                "event_description": "Live entertainment registration profile event index record #40. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2167,
+                "ticket_price": 42.13,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3546.jpg"
+                }
+            }
+        ]
+    }
+}

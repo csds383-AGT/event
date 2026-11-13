@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Echoes-887",
+        "booking_contact": "booking_neonechoes887@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Echoes-887 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #698. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3438,
+                "ticket_price": 87.39,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5731.jpg"
+                }
+            }
+        ]
+    }
+}

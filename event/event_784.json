@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Syndicate-611",
+        "booking_contact": "booking_radioactivesyndicate611@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Syndicate-611 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #784. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 135,
+                "ticket_price": 23.71,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6533.jpg"
+                }
+            }
+        ]
+    }
+}

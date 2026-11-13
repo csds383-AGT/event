@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Ghosts-166",
+        "booking_contact": "booking_velvetghosts166@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Velvet Ghosts-166 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #706. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1103,
+                "ticket_price": 43.68,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6393.jpg"
+                }
+            }
+        ]
+    }
+}

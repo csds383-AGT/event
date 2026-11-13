@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Ghosts-586",
+        "booking_contact": "booking_acousticghosts586@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Ghosts-586 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #523. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 73,
+                "ticket_price": 41.96,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8301.jpg"
+                }
+            }
+        ]
+    }
+}

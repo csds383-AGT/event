@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Waves-809",
+        "booking_contact": "booking_sonicwaves809@example.com",
+        "concert_events": [
+            {
+                "event_name": "Sonic Waves-809 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #266. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 969,
+                "ticket_price": 124.37,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7642.jpg"
+                }
+            }
+        ]
+    }
+}

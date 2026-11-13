@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Orchestra-213",
+        "booking_contact": "booking_acousticorchestra213@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Orchestra-213 Live Session",
+                "event_description": "Live entertainment registration profile event index record #915. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4231,
+                "ticket_price": 182.69,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7722.jpg"
+                }
+            }
+        ]
+    }
+}

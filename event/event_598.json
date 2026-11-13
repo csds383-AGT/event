@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Vibes-668",
+        "booking_contact": "booking_sonicvibes668@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Sonic Vibes-668 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #598. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1607,
+                "ticket_price": 49.27,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8749.jpg"
+                }
+            }
+        ]
+    }
+}

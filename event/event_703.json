@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Beats-783",
+        "booking_contact": "booking_neonbeats783@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Beats-783 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #703. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2445,
+                "ticket_price": 92.81,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1803.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Ghosts-343",
+        "booking_contact": "booking_electricghosts343@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Ghosts-343 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #25. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3977,
+                "ticket_price": 506616.46,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8744.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Rebels-346",
+        "booking_contact": "booking_lunarrebels346@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Rebels-346 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #650. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 0,
+                "ticket_price": 294.83,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6898.jpg"
+                }
+            }
+        ]
+    }
+}

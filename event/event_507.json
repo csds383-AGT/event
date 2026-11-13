@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Echoes-522",
+        "booking_contact": "booking_neonechoes522@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Echoes-522 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #507. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4197,
+                "ticket_price": 85.24,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6143.jpg"
+                }
+            }
+        ]
+    }
+}

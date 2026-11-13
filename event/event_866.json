@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Beats-184",
+        "booking_contact": "booking_radioactivebeats184@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Beats-184 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #866. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 948,
+                "ticket_price": 105.42,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6111.jpg"
+                }
+            }
+        ]
+    }
+}

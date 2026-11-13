@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Syndicate-819",
+        "booking_contact": "booking_neonsyndicate819@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Syndicate-819 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #160. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2876,
+                "ticket_price": 16.43,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7566.jpg"
+                }
+            }
+        ]
+    }
+}

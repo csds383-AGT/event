@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Theory-256",
+        "booking_contact": "booking_neontheory256@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Theory-256 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #268. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4963,
+                "ticket_price": 102.8,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8714.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Rebels-809",
+        "booking_contact": "booking_velvetrebels809@example.com",
+        "concert_events": [
+            {
+                "event_name": "Velvet Rebels-809 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #506. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3260,
+                "ticket_price": 241.44,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8419.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Vibes-464",
+        "booking_contact": "booking_electricvibes464@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Vibes-464 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #398. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 402,
+                "ticket_price": 174.14,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3848.jpg"
+                }
+            }
+        ]
+    }
+}

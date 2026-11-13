@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Orchestra-359",
+        "booking_contact": "booking_cosmicorchestra359@example.com",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Orchestra-359 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #859. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2472,
+                "ticket_price": 171.88,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3028.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Orchestra-807",
+        "booking_contact": "booking_electricorchestra807@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Orchestra-807 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #44. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 296,
+                "ticket_price": 211.13,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3426.jpg"
+                }
+            }
+        ]
+    }
+}

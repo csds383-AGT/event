@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Waves-459",
+        "booking_contact": "booking_sonicwaves459@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Sonic Waves-459 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #839. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4596,
+                "ticket_price": 35.59,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7809.jpg"
+                }
+            }
+        ]
+    }
+}

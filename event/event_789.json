@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Rebels-918",
+        "booking_contact": "booking_cosmicrebels918@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Rebels-918 Live Session",
+                "event_description": "Live entertainment registration profile event index record #789. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 517,
+                "ticket_price": 204.05,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6527.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Rebels-934",
+        "booking_contact": "booking_cosmicrebels934@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Rebels-934 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #64. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3496,
+                "ticket_price": 210.18,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8305.jpg"
+                }
+            }
+        ]
+    }
+}

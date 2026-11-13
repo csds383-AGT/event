@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Project-152",
+        "booking_contact": "booking_acousticproject152@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Project-152 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #960. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 842,
+                "ticket_price": 163.15,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7810.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Waves-884",
+        "booking_contact": "booking_acousticwaves884@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Waves-884 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #881. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 504,
+                "ticket_price": 21.61,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal3100.jpg"
+                }
+            }
+        ]
+    }
+}

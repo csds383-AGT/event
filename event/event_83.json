@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Vibes-950",
+        "booking_contact": "booking_lunarvibes950@example.com",
+        "concert_events": [
+            {
+                "event_name": "Lunar Vibes-950 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #83. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3693,
+                "ticket_price": 72.31,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7209.jpg"
+                }
+            }
+        ]
+    }
+}

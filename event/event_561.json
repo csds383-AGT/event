@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Rebels-246",
+        "booking_contact": "booking_velvetrebels246@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Rebels-246 Live Session",
+                "event_description": "Live entertainment registration profile event index record #561. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4185,
+                "ticket_price": 77.16,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8429.jpg"
+                }
+            }
+        ]
+    }
+}

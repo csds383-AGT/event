@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Echoes-745",
+        "booking_contact": "booking_electricechoes745@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Echoes-745 Live Session",
+                "event_description": "Live entertainment registration profile event index record #974. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2963,
+                "ticket_price": 51.9,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8233.jpg"
+                }
+            }
+        ]
+    }
+}

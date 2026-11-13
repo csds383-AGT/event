@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Orchestra-184",
+        "booking_contact": "booking_midnightorchestra184@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Midnight Orchestra-184 Live Session",
+                "event_description": "Live entertainment registration profile event index record #314. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3113,
+                "ticket_price": 182.24,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7383.jpg"
+                }
+            }
+        ]
+    }
+}

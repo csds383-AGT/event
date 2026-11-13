@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Echoes-202",
+        "booking_contact": "booking_cosmicechoes202@example.com",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Echoes-202 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #573. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3282,
+                "ticket_price": 199.73,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1852.jpg"
+                }
+            }
+        ]
+    }
+}

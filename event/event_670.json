@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Echoes-811",
+        "booking_contact": "booking_acousticechoes811@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Echoes-811 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #670. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 151,
+                "ticket_price": 103.5,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1712.jpg"
+                }
+            }
+        ]
+    }
+}

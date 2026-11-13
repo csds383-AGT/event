@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Theory-161",
+        "booking_contact": "booking_velvettheory161@example.com",
+        "concert_events": [
+            {
+                "event_name": "Velvet Theory-161 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #391. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2293,
+                "ticket_price": 36.86,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9515.jpg"
+                }
+            }
+        ]
+    }
+}

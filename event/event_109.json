@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Ghosts-573",
+        "booking_contact": "booking_theghosts573@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Ghosts-573 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #109. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1537,
+                "ticket_price": 136.83,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9167.jpg"
+                }
+            }
+        ]
+    }
+}

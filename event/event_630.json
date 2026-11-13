@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Vibes-748",
+        "booking_contact": "booking_electricvibes748@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Vibes-748 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #630. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 124,
+                "ticket_price": 54.33,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2960.jpg"
+                }
+            }
+        ]
+    }
+}

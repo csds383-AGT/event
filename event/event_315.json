@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Waves-209",
+        "booking_contact": "booking_lunarwaves209@example.com",
+        "concert_events": [
+            {
+                "event_name": "Lunar Waves-209 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #315. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2526,
+                "ticket_price": 119.51,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2674.jpg"
+                }
+            }
+        ]
+    }
+}

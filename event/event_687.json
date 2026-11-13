@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Vibes-860",
+        "booking_contact": "booking_velvetvibes860@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Vibes-860 Live Session",
+                "event_description": "Live entertainment registration profile event index record #687. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1676,
+                "ticket_price": 30.54,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9027.jpg"
+                }
+            }
+        ]
+    }
+}

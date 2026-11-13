@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Waves-673",
+        "booking_contact": "booking_cosmicwaves673@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Waves-673 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #252. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2358,
+                "ticket_price": 43.64,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7220.jpg"
+                }
+            }
+        ]
+    }
+}

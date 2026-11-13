@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Waves-445",
+        "booking_contact": "booking_cosmicwaves445@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Waves-445 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #74. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3454,
+                "ticket_price": 74.28,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8705.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Theory-567",
+        "booking_contact": "booking_electrictheory567@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Theory-567 Live Session",
+                "event_description": "Live entertainment registration profile event index record #690. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4250,
+                "ticket_price": 141.4,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7347.jpg"
+                }
+            }
+        ]
+    }
+}

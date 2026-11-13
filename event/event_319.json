@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Project-273",
+        "booking_contact": "booking_neonproject273@example.com",
+        "concert_events": [
+            {
+                "event_name": "Neon Project-273 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #319. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2467,
+                "ticket_price": 78.08,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2036.jpg"
+                }
+            }
+        ]
+    }
+}

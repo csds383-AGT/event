@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Vibes-979",
+        "booking_contact": "booking_cosmicvibes979@example.com",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Vibes-979 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #567. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4902,
+                "ticket_price": 221.04,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5223.jpg"
+                }
+            }
+        ]
+    }
+}

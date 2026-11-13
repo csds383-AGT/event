@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Theory-181",
+        "booking_contact": "booking_velvettheory181@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Theory-181 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #701. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 54,
+                "ticket_price": 72.51,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal5556.jpg"
+                }
+            }
+        ]
+    }
+}

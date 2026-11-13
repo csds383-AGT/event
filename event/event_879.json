@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Rebels-791",
+        "booking_contact": "booking_electricrebels791@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Rebels-791 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #879. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4537,
+                "ticket_price": 176.06,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8697.jpg"
+                }
+            }
+        ]
+    }
+}

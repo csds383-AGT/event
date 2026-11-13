@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Waves-379",
+        "booking_contact": "booking_acousticwaves379@example.com",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Waves-379 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #891. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4351,
+                "ticket_price": 126.69,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6690.jpg"
+                }
+            }
+        ]
+    }
+}

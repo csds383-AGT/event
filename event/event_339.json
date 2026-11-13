@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Echoes-474",
+        "booking_contact": "booking_radioactiveechoes474@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Echoes-474 Live Session",
+                "event_description": "Live entertainment registration profile event index record #339. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3749,
+                "ticket_price": 41.78,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9646.jpg"
+                }
+            }
+        ]
+    }
+}

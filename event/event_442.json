@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Rebels-723",
+        "booking_contact": "booking_cosmicrebels723@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Rebels-723 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #442. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1411,
+                "ticket_price": 79.72,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7581.jpg"
+                }
+            }
+        ]
+    }
+}

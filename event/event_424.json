@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Theory-175",
+        "booking_contact": "booking_neontheory175@example.com",
+        "concert_events": [
+            {
+                "event_name": "Neon Theory-175 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #424. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 165,
+                "ticket_price": 89.9,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2215.jpg"
+                }
+            }
+        ]
+    }
+}

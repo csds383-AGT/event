@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Project-199",
+        "booking_contact": "booking_electricproject199@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Electric Project-199 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #5. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4946,
+                "ticket_price": 77.16,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8527.jpg"
+                }
+            }
+        ]
+    }
+}

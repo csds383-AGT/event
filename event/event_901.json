@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Waves-787",
+        "booking_contact": "booking_velvetwaves787@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Waves-787 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #901. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3252,
+                "ticket_price": 236.64,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4867.jpg"
+                }
+            }
+        ]
+    }
+}

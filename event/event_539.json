@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Rebels-598",
+        "booking_contact": "booking_midnightrebels598@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Midnight Rebels-598 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #539. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1051,
+                "ticket_price": 172.75,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2639.jpg"
+                }
+            }
+        ]
+    }
+}

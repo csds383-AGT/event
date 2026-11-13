@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Vibes-588",
+        "booking_contact": "booking_thevibes588@example.com",
+        "concert_events": [
+            {
+                "event_name": "The Vibes-588 Live Session",
+                "event_description": "Live entertainment registration profile event index record #363. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4864,
+                "ticket_price": 68.15,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1152.jpg"
+                }
+            }
+        ]
+    }
+}

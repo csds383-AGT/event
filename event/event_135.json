@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Theory-177",
+        "booking_contact": "booking_electrictheory177@example.com",
+        "concert_events": [
+            {
+                "event_name": "Electric Theory-177 Live Session",
+                "event_description": "Live entertainment registration profile event index record #135. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3256,
+                "ticket_price": 242.31,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6992.jpg"
+                }
+            }
+        ]
+    }
+}

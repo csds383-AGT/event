@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Acoustic Ghosts-322",
+        "booking_contact": "booking_acousticghosts322@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Acoustic Ghosts-322 Live Session",
+                "event_description": "Live entertainment registration profile event index record #290. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2728,
+                "ticket_price": 86.25,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4470.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Waves-741",
+        "booking_contact": "booking_velvetwaves741@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Waves-741 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #122. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4433,
+                "ticket_price": 23.44,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal4846.jpg"
+                }
+            }
+        ]
+    }
+}

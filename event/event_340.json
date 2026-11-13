@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Rebels-497",
+        "booking_contact": "booking_lunarrebels497@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Lunar Rebels-497 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #340. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4809,
+                "ticket_price": 41.84,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8501.jpg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Echoes-818",
+        "booking_contact": "booking_sonicechoes818@example.com",
+        "concert_events": [
+            {
+                "event_name": "Sonic Echoes-818 Live Session",
+                "event_description": "Live entertainment registration profile event index record #354. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1199,
+                "ticket_price": 182.18,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7434.jpg"
+                }
+            }
+        ]
+    }
+}

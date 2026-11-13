@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Radioactive Echoes-556",
+        "booking_contact": "booking_radioactiveechoes556@example.com",
+        "concert_events": [
+            {
+                "event_name": "Radioactive Echoes-556 Live Session",
+                "event_description": "Live entertainment registration profile event index record #549. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4640,
+                "ticket_price": 237.95,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8921.jpg"
+                }
+            }
+        ]
+    }
+}

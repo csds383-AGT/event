@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Theory-207",
+        "booking_contact": "booking_thetheory207@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Theory-207 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #333. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 704,
+                "ticket_price": 42.28,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6707.jpg"
+                }
+            }
+        ]
+    }
+}

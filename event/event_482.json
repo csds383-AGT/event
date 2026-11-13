@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Orchestra-898",
+        "booking_contact": "booking_neonorchestra898@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Neon Orchestra-898 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #482. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 830,
+                "ticket_price": 227.62,
+                "booking_category": {
+                    "category_name": "Main Stage EDM Lineups",
+                    "category_description": "Global classification registry tracking vector path for Main Stage EDM Lineups events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal8483.jpg"
+                }
+            }
+        ]
+    }
+}

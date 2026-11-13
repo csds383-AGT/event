@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Echoes-633",
+        "booking_contact": "booking_midnightechoes633@example.com",
+        "concert_events": [
+            {
+                "event_name": "Midnight Echoes-633 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #521. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1306,
+                "ticket_price": 112.74,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7609.jpg"
+                }
+            }
+        ]
+    }
+}

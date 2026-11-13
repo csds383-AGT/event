@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Midnight Orchestra-706",
+        "booking_contact": "booking_midnightorchestra706@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Midnight Orchestra-706 Acoustic Tour",
+                "event_description": "Live entertainment registration profile event index record #79. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1990,
+                "ticket_price": 38.95,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2983.jpg"
+                }
+            }
+        ]
+    }
+}

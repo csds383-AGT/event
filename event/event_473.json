@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Waves-601",
+        "booking_contact": "booking_neonwaves601@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Waves-601 Live Session",
+                "event_description": "Live entertainment registration profile event index record #473. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1351,
+                "ticket_price": 237.8,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1313.jpg"
+                }
+            }
+        ]
+    }
+}

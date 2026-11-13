@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Electric Project-982",
+        "booking_contact": "booking_electricproject982@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Electric Project-982 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #168. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 3574,
+                "ticket_price": 19.4,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6129.jpg"
+                }
+            }
+        ]
+    }
+}

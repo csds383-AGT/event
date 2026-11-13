@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Ghosts-268",
+        "booking_contact": "booking_lunarghosts268@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Lunar Ghosts-268 Live Session",
+                "event_description": "Live entertainment registration profile event index record #792. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4768,
+                "ticket_price": 24.56,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7162.jpg"
+                }
+            }
+        ]
+    }
+}

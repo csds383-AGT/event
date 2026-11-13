@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Beats-203",
+        "booking_contact": "booking_neonbeats203@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Beats-203 Live Session",
+                "event_description": "Live entertainment registration profile event index record #427. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1557,
+                "ticket_price": 111.18,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9849.jpg"
+                }
+            }
+        ]
+    }
+}

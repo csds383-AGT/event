@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Vibes-999",
+        "booking_contact": "booking_thevibes999@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "The Vibes-999 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #20. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 702,
+                "ticket_price": 187.0,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9727.jpg"
+                }
+            }
+        ]
+    }
+}

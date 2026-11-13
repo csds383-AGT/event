@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Neon Echoes-755",
+        "booking_contact": "booking_neonechoes755@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Neon Echoes-755 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #605. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4683,
+                "ticket_price": 110.12,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal2296.jpg"
+                }
+            }
+        ]
+    }
+}

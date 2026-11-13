@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Beats-505",
+        "booking_contact": "booking_velvetbeats505@musicagency.net",
+        "concert_events": [
+            {
+                "event_name": "Velvet Beats-505 Concert Gala",
+                "event_description": "Live entertainment registration profile event index record #194. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1932,
+                "ticket_price": 105.75,
+                "booking_category": {
+                    "category_name": "Indie Rock Summer Tour",
+                    "category_description": "Global classification registry tracking vector path for Indie Rock Summer Tour events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal7142.jpg"
+                }
+            }
+        ]
+    }
+}

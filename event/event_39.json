@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Lunar Syndicate-261",
+        "booking_contact": "booking_lunarsyndicate261@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "Lunar Syndicate-261 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #39. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 2479,
+                "ticket_price": 158.74,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1128.jpg"
+                }
+            }
+        ]
+    }
+}

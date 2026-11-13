@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Sonic Syndicate-575",
+        "booking_contact": "booking_sonicsyndicate575@example.com",
+        "concert_events": [
+            {
+                "event_name": "Sonic Syndicate-575 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #483. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1432,
+                "ticket_price": 220.42,
+                "booking_category": {
+                    "category_name": "Jazz & Blues Lounge",
+                    "category_description": "Global classification registry tracking vector path for Jazz & Blues Lounge events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6901.jpg"
+                }
+            }
+        ]
+    }
+}

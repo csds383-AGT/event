@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Cosmic Project-279",
+        "booking_contact": "booking_cosmicproject279@example.com",
+        "concert_events": [
+            {
+                "event_name": "Cosmic Project-279 Unplugged Night",
+                "event_description": "Live entertainment registration profile event index record #167. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 4363,
+                "ticket_price": 180.36,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal6802.jpg"
+                }
+            }
+        ]
+    }
+}

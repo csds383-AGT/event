@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "The Theory-875",
+        "booking_contact": "booking_thetheory875@festmail.org",
+        "concert_events": [
+            {
+                "event_name": "The Theory-875 Music Festival",
+                "event_description": "Live entertainment registration profile event index record #858. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1609,
+                "ticket_price": 40.34,
+                "booking_category": {
+                    "category_name": "Pop Revival Fest",
+                    "category_description": "Global classification registry tracking vector path for Pop Revival Fest events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal1971.jpg"
+                }
+            }
+        ]
+    }
+}

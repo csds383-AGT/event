@@ -1,0 +1,21 @@
+{
+    "artist": {
+        "artist_name": "Velvet Orchestra-406",
+        "booking_contact": "booking_velvetorchestra406@example.com",
+        "concert_events": [
+            {
+                "event_name": "Velvet Orchestra-406 Rave Experience",
+                "event_description": "Live entertainment registration profile event index record #309. This payload segment provides verified routing metadata configurations, lineup details, structural identity mapping constraints, and logistical logging parameters.",
+                "available_tickets": 1970,
+                "ticket_price": 148.17,
+                "booking_category": {
+                    "category_name": "Underground Techno Showcase",
+                    "category_description": "Global classification registry tracking vector path for Underground Techno Showcase events."
+                },
+                "promotional_media": {
+                    "image_url": "https://festhub.internal9856.jpg"
+                }
+            }
+        ]
+    }
+}
