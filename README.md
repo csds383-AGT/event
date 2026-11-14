@@ -5,8 +5,8 @@
 1. install latest [docker desktop](https://www.docker.com/products/docker-desktop/) and open it. 
 2. clone the repo and go into it
    ```bash
-   git clone https://github.com/csds383-AGT/microservice.git
-   cd microservice
+   git clone https://github.com/csds383-AGT/event.git
+   cd event
    ```
 3. start everything
    ```bash
